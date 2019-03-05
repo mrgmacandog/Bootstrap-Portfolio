@@ -7,6 +7,9 @@ body {
 
 #navbar-contaniner {
     background-color: #fff;
+    border-bottom-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
 }
 
 .navbar {
@@ -18,23 +21,71 @@ body {
 .navbar-brand {
     font-size: 24pt;
     font-weight: bold;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
-    padding: 25px;
+    padding: 30px;
 }
 
-.navbar-brand, .navbar-brand:hover {
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
     color: #fff;
 }
 
-.nav-item {
-    color: #777;
-}
-
-.nav-item:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     color: #4aaaa5;
 }
 
-.active {
+.navbar-light .navbar-nav .nav-link.active {
     color: #4aaaa5;
+}
+
+hr {
+    border-color: #777;
+}
+
+.main {
+    background-color: #fff;
+    margin-top: 105px;
+    margin-bottom: 90px;
+    width: 960px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+}
+
+#my-image {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.my-bio {
+    line-height: 24pt;
+}
+
+#footer-contaniner {
+    background-color: #666;
+    color: #ccc;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px;
+}
+
+.mx-auto {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 12px;
 }
